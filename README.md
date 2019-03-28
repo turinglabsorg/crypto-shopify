@@ -1,7 +1,9 @@
 <h1 align="center">Accept almost any cyrptocurrency in your Shopify Shop</h1>
 
 What's there? A simple script that fetches for you the prices from CoinGecko and creates a QR code.
+
 You've to create a manual payment in your shopify store called "Crypto Payments" and add the script:
+
 https://github.com/turinglabsorg/crypto-shopify/blob/master/src/ShopifyCode.md in your settings (custom scripts)
 
 Add your own address just editing the first row:
@@ -15,4 +17,5 @@ window.CryptoAddresses = {
 ```
 
 The only important things is that the first part (for ex. bitcoin) matches the coingecko one, you can try just putting your coin in this link:
+
 https://api.coingecko.com/api/v3/coins/yourcoin
