@@ -19,3 +19,5 @@ window.CryptoAddresses = {
 The only important things is that the first part (for ex. bitcoin) matches the coingecko one, you can try just putting your coin in this link:
 
 https://api.coingecko.com/api/v3/coins/yourcoin
+
+Here's a guide created by PirateChain that explains all the steps to activate the script (the guide is with the old version, but the steps are the same): https://medium.com/piratechain/piratechain-raises-anchor-on-the-shopify-plugin-6c5819726f07
