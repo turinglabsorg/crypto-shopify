@@ -1,4 +1,3 @@
-`
 {% if {{checkout.transactions[0].gateway}} == "Crypto Payment" %}
 <br><br>
 <div id="root" style="text-align:center; padding:15px;"></div>
@@ -54,6 +53,9 @@ var currency = "usd";
 switch(currencysymbol){
    case "€":
       currency = 'eur';
+   break;
+   case "£":
+      currency = 'gbp';
    break;
 }
 function calculateCryptoAmount(){
@@ -112,4 +114,3 @@ calculateCryptoAmount();
 </script>
 
 {% endif %}
-`
